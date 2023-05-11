@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
           margin: const EdgeInsets.all(20),
           child: ElevatedButton.icon(
             onPressed: () {
-              Navigator.of(context).pushNamed('/cars_list');
+              Navigator.of(context).pushReplacementNamed('/cars_list');
             },
             icon: const Icon(Icons.account_circle),
             label: const Text("Login"),
